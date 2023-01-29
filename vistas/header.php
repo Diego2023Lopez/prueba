@@ -16,6 +16,7 @@ if (strlen(session_id()) < 1)
     <link rel="stylesheet" href="../public/css/font-awesome.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="../public/css/AdminLTE.min.css">
+    
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="../public/css/_all-skins.min.css">
@@ -101,7 +102,7 @@ if (strlen(session_id()) < 1)
             ?>
 
             <?php 
-            if ($_SESSION['almacen']==1)
+            if ($_SESSION['denuncia']==1)
             {
               echo '<li class="treeview">
               <a href="#">
@@ -122,7 +123,7 @@ if (strlen(session_id()) < 1)
             {
               echo '<li class="treeview">
               <a href="#">
-                <i class="fa fa-folder"></i> <span>Permisos Y Usarios</span>
+                <i class="fa fa-folder"></i> <span>Permisos Y Usuarios</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">

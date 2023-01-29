@@ -151,7 +151,7 @@ switch ($_GET["op"]){
 
 			//Determinamos los accesos del usuario
 			in_array(1,$valores)?$_SESSION['escritorio']=1:$_SESSION['escritorio']=0;
-			in_array(2,$valores)?$_SESSION['almacen']=1:$_SESSION['almacen']=0;
+			in_array(2,$valores)?$_SESSION['denuncia']=1:$_SESSION['denuncia']=0;
 			in_array(3,$valores)?$_SESSION['acceso']=1:$_SESSION['acceso']=0;
 		
 

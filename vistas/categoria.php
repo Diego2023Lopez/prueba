@@ -11,7 +11,7 @@ else
 {
 require 'header.php';
 
-if ($_SESSION['almacen']==1)
+if ($_SESSION['denuncia']==1)
 {
 ?>
 <!--Contenido-->
